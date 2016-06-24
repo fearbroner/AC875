@@ -1,0 +1,662 @@
+<!-- Begin Button Bar -->
+<ul class="nav nav-pills nav-justified core-content-nav-pills">
+        <li class="active"><a data-toggle="tab" href="#home"><span class="glyphicon glyphicon-home" style="padding-right:10px;"></span>WELCOME</a></li>
+        <li><a style="color: #ff6d10 !important;" data-toggle="tab" href="#division">THE DIVISION</a></li>
+        <li><a style="color: #6441a5 !important;" data-toggle="tab" href="#twitch"><span class="glyphicon glyphicon-facetime-video" style="padding-right:10px;"></span>TWITCH</a></li>
+        <!-- 
+        <li class="active"><a style="color: white;" data-toggle="tab" href="#destiny">DESTINY</a></li>
+        <li><a data-toggle="tab" href="#info"><span class="glyphicon glyphicon-info-sign" style="padding-right:10px;"></span>CLAN</a></li>
+        -->
+</ul>
+
+<!-- Nav Pills -->
+
+<div class="row">
+  	<div class="col-sm-3" style="padding-right: 5px;">
+  	        <div class="tab-content">
+      			 <div id="division" class="tab-pane fade in active">
+                	    	<ul class="nav nav-pills nav-stacked" style="background-color: #202020; color: #428bca; border-collapse:collapse;">
+                		      	<li style="border-bottom: 1px solid white; border-collapse:collapse;"><a style="color: #ff6d10 !important;" data-toggle="tab" href="#divisionnews"><small><span class="glyphicon glyphicon-th-list" style="padding-right:10px;"></span>News</small></a></li>
+                                        <li style="border-bottom: 1px solid white; border-collapse:collapse;"><a style="color: #ff6d10 !important;" data-toggle="tab" href="#divisionDM"><small>Daily Missions</small></a></li>
+                			<li style="border-bottom: 1px solid white; border-collapse:collapse;"><a style="color: #ff6d10 !important;" data-toggle="tab" href="#divisionDA"><small>Daily Assignment</small></a></li>
+                			<li style="border-bottom: 1px solid white; border-collapse:collapse;"><a style="color: #ff6d10 !important;" data-toggle="tab" href="#divisionWA"><small>Weekly Assignment</small></a></li>
+                			<li style="border-bottom: 1px solid white; border-collapse:collapse;"><a style="color: #ff6d10 !important;" data-toggle="tab" href="#divisionstate"><small>State of the Game</small></a></li>
+                			<li style="border-bottom: 1px solid white; border-collapse:collapse;"><a style="color: #ff6d10 !important;" data-toggle="tab" href="#divisionupdates"><small>1.2 Patch Notes</small></a></li>
+                			<li style="border-bottom: 1px solid white; border-collapse:collapse;"><a style="color: #ff6d10 !important;" data-toggle="tab" href="#divisionFarm"><small>Dark Zone Farming</small></a></li>
+                			<li style="border-bottom: 1px solid white; border-collapse:collapse;"><a style="color: #ff6d10 !important;" data-toggle="tab" href="#divisionY1"><small><span class="glyphicon glyphicon-road" style="padding-right:10px;"></span>Roadmap</small></a></li>
+                			<li style="border-bottom: 1px solid white; border-collapse:collapse;"><a style="color: #ff6d10 !important;" data-toggle="tab" href="#dtwitter"><small>Division Twitter</small></a></li>
+                		</ul>
+                    	</div>
+                	
+                 </div>   		
+  	</div>
+        
+        <div class="col-sm-9" style="padding-left: 5px;">
+    		<div class="tab-content">
+      			<div id="home" class="tab-pane fade in active">
+        			<div class="well well-dark-transparent" style="overflow:auto; height:590px;">
+          				<img src="http://i.imgur.com/WSYEhOz.png" style="text-align:center;" width="100%" alt="ac875 Banner" title="ac875 Banner logo"></h3>
+			    	        <div class="well well-dark-transparent">
+                  				<p style="color: #ff6d10; font-size: 22px; text-align:center;">Welcome to AC875!</p>
+        			    	        <p style="color: #ff6d10; font-size: 16px;">As an agent of The Division you don’t only have to fight the consequences of the man-made virus, but also bring the increased threat, posed by those who have brought it into circulation, under control.
+        			    	        <p style="color: #ff6d10; font-size: 16px;">Our motto is “Extremis Malis Extrema Remedia“, which means “Desperate times call for desperate measures“.</p>
+			    	        </div>
+          				<a class="btn btn-default btn-block" href="https://www.the100.io/supporters" class="btn btn-primary">Become a <span class="glyphicon glyphicon-fire"></span> Supporter</a>
+		    		</div>
+      			</div>
+      			<div id="divisionnews" class="tab-pane fade">
+        			<div class="well well-dark-transparent" style="overflow:auto; height:590px;">
+          				<h3 style="font-size: 24px; text-align:center; border-bottom: 2px solid #8d8c91; margin: 0px 0px 30px; padding: 5px 0px 5px;">News and Upcoming Events</h3>
+					<p style="color: #ff6d10 !important;"> - APR 05 - Division - <a data-toggle="tab" href="#divisionupdates" style="color: #ff6d10 !important;">Update 1.1 - Patch</a></p>
+					<p style="color: #ff6d10 !important;"> - APR 12 - Division - <a data-toggle="tab" href="#divisionupdates" style="color: #ff6d10 !important;">Update 1.1 - Incursions</a></p>
+					<p style="color: #ff6d10 !important;"> - MAY 04 - Division - <a data-toggle="tab" href="#divisionstate" style="color: #ff6d10 !important;">State of the Game</a></p>
+					<p style="color: #ff6d10 !important;"> - MAY 24 - Division - <a data-toggle="tab" href="#divisionY1" style="color: #ff6d10 !important;">Update 1.2  - Conflict</a></p>
+					<p style="color: #ff6d10 !important;"> - JUN ?? - Division - <a data-toggle="tab" href="#divisionY1" style="color: #ff6d10 !important;">Expansion I - Underground</a></p>
+					<p style="color: #ff6d10 !important;"> - SUM ?? - Division - <a data-toggle="tab" href="#divisionY1" style="color: #ff6d10 !important;">Expansion II - Survival</a></p>
+					<p style="color: #ff6d10 !important;"> - WIN ?? - Division - <a data-toggle="tab" href="#divisionY1" style="color: #ff6d10 !important;">Expansion III - Last Stand</a></p>
+					<p style="padding:15px 0px 0px; border-top: 2px solid #8d8c91;"><a data-toggle="tab" class="btn btn-primary" href="#home">Return Home</a>
+		    		</div>
+      			</div>
+      			<div id="divisionDM" class="tab-pane fade in">
+        			<div class="well well-dark-transparent" style="overflow:auto; height:590px;">
+		          		<table width="100%" align="center" style="font-size: 14px;">
+		          			<tbody>
+							<tr>
+					                  	<td colspan=3 style="color: #ff6d10; font-size: 22px; text-align:center; padding:5px; border-collapse:collapse;">Division Daily Missions [20:00EST MAY-17]<br></td>
+					               	</tr>
+							</tbody>
+						<tfoot></tfoot>
+					</table>
+					<table width="100%" align="center" style="font-size: 14px;">
+		          			<tbody>
+							<tr>
+					                  	<td colspan=3 style="color: #ff6d10; font-size: 22px; text-align:center; padding:5px; border-collapse:collapse;">&nbsp;</td>
+					               	</tr>
+							<!-- 1 - Lincoln Tunnel Checkpoint -->
+							<tr>
+					                  	<td colspan=3 style="color: #ff6d10; font-size: 22px; text-align:center; padding:5px; border: 1px solid white; border-collapse:collapse;"> <strong><a style="color: #ff6d10;"  target="_blank" href="http://thedivision.wikia.com/wiki/Lincoln_Tunnel_Checkpoint">Lincoln Tunnel Checkpoint</a></strong><br></td>
+					               	</tr>
+							<tr>
+					                  	<td colspan=3 style="padding:5px; border: 1px solid white; border-collapse:collapse;"><img src="http://i.imgur.com/c6ai1rX.png" width=100%  alt="hard" title="hard"><br></td>
+					               	</tr>
+							<tr>
+								<td width="33%" style="color: #9b8f7c; text-align:center; padding:5px; border: 1px solid white; border-collapse:collapse;">Challenge Mode Rewards</td>
+								<td width="33%" style="color: #9b8f7c; text-align:center; padding:5px; border: 1px solid white; border-collapse:collapse;">20 Phoenix Credits</td>
+								<td width="34%" style="color: #9b8f7c; text-align:center; padding:5px; border: 1px solid white; border-collapse:collapse;">Highend Item</td>
+							</tr>
+						</tbody>
+						<tfoot></tfoot>
+					</table>
+					<table width="100%" align="center" style="font-size: 14px;">
+		          			<tbody>
+							<tr>
+					                  	<td colspan=3 style="color: #ff6d10; font-size: 22px; text-align:center; padding:5px; border-collapse:collapse;">&nbsp;</td>
+					               	</tr>
+							<!-- 9 - Rooftop Comm Relay -->
+							<tr>
+					                  	<td colspan=3 style="color: #ff6d10; font-size: 22px; text-align:center; padding:5px; border: 1px solid white; border-collapse:collapse;"> <strong><a style="color: #ff6d10;"  target="_blank" href="http://thedivision.wikia.com/wiki/Rooftop_Comm_Relay">Rooftop Comm Relay</a></strong><br></td>
+					               	</tr>
+							<tr>
+					                  	<td colspan=3 style="padding:5px; border: 1px solid white; border-collapse:collapse;"><img src="http://i.imgur.com/puJbErS.png" width=100%  alt="daily" title="daily"><br></td>
+					               	</tr>
+					               	<tr>
+								<td width="33%" style="color: #9b8f7c; text-align:center; padding:5px; border: 1px solid white; border-collapse:collapse;">Hard Mode Rewards</td>
+								<td width="33%" style="color: #9b8f7c; text-align:center; padding:5px; border: 1px solid white; border-collapse:collapse;">10 Phoenix Credits</td>
+								<td width="34%" style="color: #9b8f7c; text-align:center; padding:5px; border: 1px solid white; border-collapse:collapse;">Specialized Item</td>
+							</tr>
+							</tbody>
+						<tfoot></tfoot>
+					</table>
+					<table width="100%" align="center" style="font-size: 14px;">
+		          			<tbody>
+							<tr>
+					                  	<td colspan=3 style="color: #ff6d10; font-size: 22px; text-align:center; padding:5px; border-collapse:collapse;">&nbsp;</td>
+					               	</tr>
+							<!-- 1 - Madison Field Hospital -->
+							<tr>
+					                  	<td colspan=3 style="color: #ff6d10; font-size: 22px; text-align:center; padding:5px; border: 1px solid white; border-collapse:collapse;"> <strong><a style="color: #ff6d10;"  target="_blank" href="http://thedivision.wikia.com/wiki/Madison_Field_Hospital">Madison Field Hospital</a></strong><br></td>
+					               	</tr>
+							<tr>
+					                  	<td colspan=3 style="padding:5px; border: 1px solid white; border-collapse:collapse;"><img src="http://i.imgur.com/Q59E9UQ.png" width=100%  alt="daily" title="daily"><br></td>
+					               	</tr>
+							<tr>
+								<td width="33%" style="color: #9b8f7c; text-align:center; padding:5px; border: 1px solid white; border-collapse:collapse;">Hard Mode Rewards</td>
+								<td width="33%" style="color: #9b8f7c; text-align:center; padding:5px; border: 1px solid white; border-collapse:collapse;">10 Phoenix Credits</td>
+								<td width="34%" style="color: #9b8f7c; text-align:center; padding:5px; border: 1px solid white; border-collapse:collapse;">Specialized Item</td>
+							</tr>
+							</tbody>
+						<tfoot></tfoot>
+					</table>
+					<br><br>
+					<p style="color: #9b8f7c;">Last but not least here is the <strong><a style="color: #ff6d10;"  target="_blank" href="https://www.reddit.com/r/thedivision/comments/4glwzw/daily_reset_info_426_427/">The Division Daily Reset Thread</p>
+    					
+					<p style="padding:10px 0 0; text-align:left;"><a data-toggle="tab" class="btn btn-primary" href="#home">Return Home</a></p>
+				</div>
+		      	</div>
+      			<div id="divisionDA" class="tab-pane fade in">
+        			<div class="well well-dark-transparent" style="overflow:auto; height:590px;">
+		          		<table width="100%" align="center" style="font-size: 14px;">
+		          			<tbody>
+							<tr>
+					                  	<td colspan=3 style="color: #ff6d10; font-size: 22px; text-align:center; padding:5px; border-collapse:collapse;">Division Daily Assignments [20:00EST MAY-17]<br></td>
+					               	</tr>
+							</tbody>
+						<tfoot></tfoot>
+					</table>
+					<table width="100%" align="center" style="font-size: 14px;">
+		          			<tbody>
+							<tr>
+					                  	<td colspan=3 style="color: #ff6d10; font-size: 22px; text-align:center; padding:5px; border-collapse:collapse;">&nbsp;</td>
+					               	</tr>
+							<tr>
+								<td width="20%" style="color: #9b8f7c; text-align:center; padding:5px; border: 1px solid white; border-collapse:collapse;">Type</td>
+								<td width="40%" style="color: #9b8f7c; text-align:center; padding:5px; border: 1px solid white; border-collapse:collapse;">Assignment</td>
+								<td width="40%" style="color: #9b8f7c; text-align:center; padding:5px; border: 1px solid white; border-collapse:collapse;">Reward</td>
+							</tr>
+							<tr>
+								<td width="20%" style="color: #9b8f7c; text-align:center; padding:5px; border: 1px solid white; border-collapse:collapse;">Comabt</td>
+								<td width="40%" style="color: #9b8f7c; text-align:center; padding:5px; border: 1px solid white; border-collapse:collapse;">10 LMB Eliminated</td>
+								<td width="40%" style="color: #9b8f7c; text-align:center; padding:5px; border: 1px solid white; border-collapse:collapse;">10 Phoenix Credits</td>
+							</tr>
+							<tr>
+								<td width="20%" style="color: #9b8f7c; text-align:center; padding:5px; border: 1px solid white; border-collapse:collapse;">Crafting</td>
+								<td width="40%" style="color: #9b8f7c; text-align:center; padding:5px; border: 1px solid white; border-collapse:collapse;">3 Fabric converted</td>
+								<td width="40%" style="color: #9b8f7c; text-align:center; padding:5px; border: 1px solid white; border-collapse:collapse;">1 HE Division Tech</td>
+							</tr>
+							<tr>
+								<td width="20%" style="color: #9b8f7c; text-align:center; padding:5px; border: 1px solid white; border-collapse:collapse;">Dark Zone</td>
+								<td width="40%" style="color: #9b8f7c; text-align:center; padding:5px; border: 1px solid white; border-collapse:collapse;">10 Rioters Eliminated</td>
+								<td width="40%" style="color: #9b8f7c; text-align:center; padding:5px; border: 1px solid white; border-collapse:collapse;">7500 DZ EXP</td>
+							</tr>
+						</tbody>
+						<tfoot></tfoot>
+					</table>
+					<br><br>
+					<p style="padding:10px 0 0; text-align:left;"><a data-toggle="tab" class="btn btn-primary" href="#home">Return Home</a></p>
+				</div>
+		      	</div>
+      			<div id="divisionWA" class="tab-pane fade in">
+        			<div class="well well-dark-transparent" style="overflow:auto; height:590px;">
+		          		<table width="100%" align="center" style="font-size: 14px;">
+		          			<tbody>
+							<tr>
+					                  	<td colspan=3 style="color: #ff6d10; font-size: 22px; text-align:center; padding:5px; border-collapse:collapse;">Division Weekly Assignments<br>[MAY-16 to MAY-23]<br></td>
+					               	</tr>
+					               	<tr>
+					                  	<td colspan=3 style="color: #ff6d10; font-size: 22px; text-align:center; padding:5px; border-collapse:collapse;"><a style="color: #ff6d10;"  target="_blank" href="https://www.youtube.com/watch?v=7yjmXcUAN7I&list=PLpwyzkZha0Z7pB7gmW0v-NUP9Juoj93iI&index=1"><img src="https://yt3.ggpht.com/-zodoGyErxaY/VzovCHawyiI/AAAAAAAAAUI/XfZWOehEA2gUTcLucX33c-3F12odJj8qQCL8B/w2120-fcrop64=1,00005a57ffffa5a8-nd-c0xffffffff-rj-k-no/TCTD_Incursion_YT_Channel_Art.jpg" width=100%  alt="OI" title="OI"></a></td>
+					               	</tr>
+							<tr>
+					                  	<td colspan=3 style="color: #ff6d10; font-size: 18px; text-align:center; padding:5px; border-collapse:collapse;"><small>Cick Image Above for Video<br>&nbsp;</small></td>
+					               	</tr>
+							
+						</tbody>
+						<tfoot></tfoot>
+					</table>
+					<table width="100%" align="left" style="font-size: 14px;">
+		          			<tbody>
+							<tr>
+					                  	<td colspan=3 style="color: #ff6d10; font-size: 20px; text-align:Center; padding:5px; border: 1px solid white; border-collapse:collapse;"><strong>Weekly Assignments</strong><br></td>
+					               	</tr>
+							<tr>
+					                  	<td colspan=3 style="color: #9b8f7c; font-size: 16px; text-align:left; padding:5px; border: 1px solid white; border-collapse:collapse;">50 Rioters Eliminated<br></td>
+					               	</tr>
+							<tr>
+					                  	<td colspan=3 style="color: #9b8f7c; font-size: 16px; text-align:left; padding:5px; border: 1px solid white; border-collapse:collapse;">30 Fabric Collected<br></td>
+					               	</tr>
+							<tr>
+					                  	<td colspan=3 style="color: #9b8f7c; font-size: 16px; text-align:left; padding:5px; border: 1px solid white; border-collapse:collapse;">10 Named Enemies Eliminated<br></td>
+					               	</tr>
+							<tr>
+					                  	<td colspan=3 style="color: #9b8f7c; font-size: 16px; text-align:left; padding:5px; border: 1px solid white; border-collapse:collapse;">10 HM or CM Missions Completed<br></td>
+					               	</tr>
+					               	<tr>
+					                  	<td colspan=3 style="color: #ff6d10; font-size: 20px; text-align:Center; padding:5px; border: 1px solid white; border-collapse:collapse;"><strong>Reward</strong><br></td>
+					               	</tr>
+							<tr>
+					                  	<td colspan=3 style="color: #9b8f7c; font-size: 16px; text-align:left; padding:5px; border: 1px solid white; border-collapse:collapse;">30 Phoenix Credits<br></td>
+					               	</tr>
+							
+							</tbody>
+						<tfoot></tfoot>
+					</table>
+					
+				</div>
+		      	</div>
+      			<div id="divisionstate" class="tab-pane fade">
+        			<div class="well well-dark-transparent" style="overflow:auto; height:590px;">
+          				<h2 style="color: #9b8f7c; font-size: 24px; text-align:center; border-bottom: 2px solid #8d8c91; margin: 0px 0px 30px; padding: 5px 0px 5px;">State of the Game [2016-05-12]</h2>
+					<p style="color: #ff6d10;">This is a summary of the weekly State of the Game Twitch stream</p>
+					<p style="color: #ff6d10;">You can re-watch the State of Game here: <a href="https://www.twitch.tv/thedivisiongame/v/65964880">Link</a></p>
+					<p></p>
+					<h3 style="color: #9b8f7c; border-bottom: 2px solid #8d8c91; margin: 0px 0px 30px; padding: 5px 0px 5px;">Maintenance</h3>
+					<p style="color: #ff6d10;">The servers will shut down for a scheduled weekly maintenance every Thursday at 03:00 AM EST</p>
+					<p style="color: #ff6d10;">Estimated downtime is approximately 3 hours.</p>
+					<p></p>
+					<p style="color: #9b8f7c; font-size: 18px;"><u>Patch Notes:</u></p>
+					<p>No changes this week</p>
+					
+					<p>&nbsp;</p>
+					
+					<h3 style="color: #9b8f7c; border-bottom: 2px solid #8d8c91; margin: 0px 0px 30px; padding: 5px 0px 5px;">State of the Game</h3>
+					
+					<p>In this week's State of the Game, the focus was on 1.2 balancing and some comments about bugs that popped up over the week. We don't have an announce-date for 1.2, but we got a teaser how the meta-game will change with the 1.2 update.</p>
+
+					<p>&nbsp;</p>
+					
+					<hr>
+					
+					<h4>Changes during this weeks maintenance:</h4>
+					
+					<ul>
+					<li>More anti-spam measures for in-game chat</li>
+					</ul>
+					
+					<p>&nbsp;</p>
+					
+					<h4>Sentry's Call Bug</h4>
+					
+					<ul>
+					<li>Sentry's Call bug is known and will be fixed with 1.2</li>
+					<li>At the moment, sometimes players will be marked with the Sentry's Call – debuff, when they are close to players that wear the Sentrys Call Set.</li>
+					<li>When you have the debuff-mark, the current workaround is logout / login</li>
+					</ul>
+					
+					<p>&nbsp;</p>
+					
+					<h4>Weekly Incursion Reward Problem</h4>
+					
+					<ul>
+					<li>At the moment, the weekly incursion reset is at 2am CET</li>
+					<li>When you start playing the Incursion before the reset, and finish it after the reset, the game considers you to have done it in the new week and you won't get the weekly reward.</li>
+					<li>Players have also reported that they did not get the weekly reward later in the week, this is under investigation</li>
+					</ul>
+					
+					<p>&nbsp;</p>
+					
+					<hr>
+					
+					<h4>1.2 New Features</h4>
+					
+					<ul>
+					<li>There will be New Gear Sets and some of those will buff specific weapons (very vague)</li>
+					<li>Voip-indicator of the player is now in the UI, so you will know when you are broadcasting</li>
+					<li>Phoenix Credits cap will be 2000</li>
+					<li>Max Gear Score of the items will stay at 204 / 240</li>
+					<li>On the Inventory-Screen "Health" will be replaced with a new attribute "Toughness"</li>
+					<li>Toughness is the sum of Health / Stamina / Armor – it won't include attribute such as "Protection against Elite" etc, but it gives you a better understanding, if the new item gives you a buff or not. </li>
+					</ul>
+					
+					<p>&nbsp;</p>
+					
+					<hr>
+					
+					<h4>1.2 Incursion</h4>
+					
+					<ul>
+					<li>New incursion will have the same gear requirement as Falcon Lost</li>
+					<li>Will have a new name and not Broken Circle</li>
+					<li>Basically everything you see now on the map about the new incursion is placeholder</li>
+					<li>There is no thing as purple gear-sets (but there will be new sets)</li>
+					</ul>
+					
+					<p>&nbsp;</p>
+					
+					<hr>
+					
+					<h4>1.2 Balancing Weapons</h4>
+					
+					<ul>
+					<li>Metagame should move away from Vector / Aug / M1A because they are very easy to obtain right now.</li>
+					<li>1.2 will be a first step in the direction to move away from the known craftable weapons</li>
+					<li>In 1.2 the player will get more / better weapons, so they will also use the archetypes that are now not so popular ( also supported with the new gear-sets)</li>
+					<li>Weapons will not be directly touched in 1.2</li>
+					<li>They are re-balancing weapon talents like Brutal (bonus will be additive) / Balanced (mentioned last week)</li>
+					<li>They will be gathering a lot of data and after that, there will be a big balance of the weapons after 1.2 when they have a better understanding of the impact of the rebalanced talents and the new gear-sets</li>
+					</ul>
+					
+					<p>&nbsp;</p>
+					
+					<h4>1.2 Balancing Sentry's Call</h4>
+					
+					<ul>
+					<li>Sentry's Call is very OP right now in comparison to the other gear sets</li>
+					<li>After 1.2 the debuff-mark it will only be applied with semi-automatic weapons such as Pistol / Shotgun / Marksmen rifle</li>
+					</ul>
+					
+					<p>&nbsp;</p>
+					
+					<h4>1.2 Balancing Performance Mods</h4>
+					
+					<ul>
+					<li>Performance-Mods will be buffed to compensate the absence of a Character Attribute – the skill-buff will be a lot higher</li>
+					</ul>
+					
+					<p>&nbsp;</p>
+					
+					<h4>1.2 Balancing Armor / Damage Mitigation</h4>
+					
+					<ul>
+					<li>Armor Cap is increased</li>
+					<li>Damage Mitigation is increased to 75% (right now it is 65%) - this should compensate the higher damage that got available with the new gear. </li>
+					<li>But to get 75% Damage Mitigation you will have to sacrifice other stats. </li>
+					</ul>
+					
+					<p>&nbsp;</p>
+
+
+
+					<p>1.2 announcements from last week: <a href="https://www.reddit.com/r/thedivision/comments/4hqndp/weekly_maintenance_may_4th_patch_notes_state_of/">Link</a></p>
+					<p></p> 
+					<p style="padding:15px 0px 0px; border-top: 2px solid #8d8c91;"><a data-toggle="tab" class="btn btn-primary" href="#home">Return Home</a>
+		    		</div>
+      			</div>
+      			<div id="divisionupdates" class="tab-pane fade">
+        			<div class="well well-dark-transparent" style="overflow:auto; height:590px;">
+          				<h2 style="color: #ff6d10; font-size: 24px; text-align:center; border-bottom: 2px solid #8d8c91; margin: 0px 0px 30px; padding: 5px 0px 5px;">Division Update 1.2 - May 24, 2016</h2>
+					<p style="color: #9b8f7c;">New patch coming soon for Update 1.2</p>
+					<p></p> 
+					<table width="100%" align="center" style="font-size: 14px;">
+		          			<tbody>
+							<tr>
+					                  	<td colspan=3 style="color: #ff6d10; font-size: 22px; text-align:center; padding:5px; border-collapse:collapse;"><a style="color: #ff6d10;"  target="_blank" href="https://www.youtube.com/watch?v=y-YqSs-2qOw"><img src="http://i1.wp.com/www.gaming-age.com/wp-content/uploads/2016/05/the-division-conflict.jpg" width=100%  alt="OI" title="OI"></a></td>
+					               	</tr>
+							<tr>
+					                  	<td colspan=3 style="color: #ff6d10; font-size: 18px; text-align:center; padding:5px; border-collapse:collapse;"><small>Cick Image Above for Video<br>&nbsp;</small></td>
+					               	</tr>
+							
+						</tbody>
+						<tfoot></tfoot>
+					</table>
+					
+					<hr>
+					<p style="color: #9b8f7c;">Update 1.1 Patch Notes</p>
+					
+					<h2 style="color: #9b8f7c;">New Features</h2>
+					<h3 style="color: #9b8f7c;">Falcon Lost</h3>
+					<ul>
+						<li><p style="color: #ff6d10; font-size: 12px;">- Falcon Lost is a new incursion available in the Stuyvesant area</p></li>
+						<li><p style="color: #ff6d10; font-size: 12px;">- You must be level 30 and have completed the mission "General Assembly" to access this mission</p></li>
+						<li><p style="color: #ff6d10; font-size: 12px;">- The encounter is balanced for 4 players with high level gear</p></li>
+					</ul>
+					<p>&nbsp;</p>
+					<hr>
+					<h3 style="color: #9b8f7c;">Gear Sets</h3>
+					<ul>
+						<li><p style="color: #ff6d10; font-size: 12px;">- Gear set equipment can be found by completing the most challenging activities in Manhattan</p></li>
+						<li><p style="color: #ff6d10; font-size: 12px;">- Collecting and wearing gear sets grant powerful stat bonuses and talents</p></li>
+					</ul>
+					<p><a class="media-link iframe"  target="_blank" href="https://pbs.twimg.com/media/Cfh9CLTWIAAudbp.jpg"><img src="https://pbs.twimg.com/media/Cfh9CLTWIAAudbp.jpg" width="100%"  alt="clothing" title="clothing"></a></p>
+					<p style="color: #9b8f7c; font-size: 14px;"><strong>Striker's Battlegear</strong> – Provide bonuses for assault capabilities</p>
+					<ul>
+						<li><p style="color: #ff6d10; font-size: 12px;">Set bonus (2): +20% enemy armor damage.</p></li>
+						<li><p style="color: #ff6d10; font-size: 12px;">Set bonus (3): +100% critical hit damage.</p></li>
+						<li><p style="color: #ff6d10; font-size: 12px;">Set bonus (4): Talent: Shooter (every consecutive hit deals 1% more enemy damage. Stacks up to 100%. Missing shots drops bonus by 2% Bonus is reduced by 1% every second.</p></li>
+					</ul>
+					<p style="color: #9b8f7c; font-size: 14px;"><strong>Path of the Nomad</strong> – Provides bonuses for lone wanderers</p>
+					<ul>
+						<li><p style="color: #ff6d10; font-size: 12px;">Set bonus (2): +50% scavenging.</p></li>
+						<li><p style="color: #ff6d10; font-size: 12px;">Set bonus (3): +20% health on kill.</p></li>
+						<li><p style="color: #ff6d10; font-size: 12px;">Set bonus (4): Talent: Nomad: When receiving fatal damage, you are instead healed to full health. Can occur once every 10 minutes.</p></li>
+					</ul>
+					<p style="color: #9b8f7c; font-size: 14px;"><strong>Tactician's Authority</strong> – Enhances electronics and support capabilities</p>
+					<ul>
+						<li><p style="color: #ff6d10; font-size: 12px;">Set bonus (2): +4000 skillpower.</p></li>
+						<li><p style="color: #ff6d10; font-size: 12px;">Set bonus (3): +20% skill haste.</p></li>
+						<li><p style="color: #ff6d10; font-size: 12px;">Set bonus (4): Talent: Tactician's Authority: Every 60k damage your group deals adds 1% skillpower to you for a max of 100% bonus. Bonus is reduced by 1% every second the group isn't dealing damage.</p></li>
+					</ul>
+					<p style="color: #9b8f7c; font-size: 14px;"><strong>Sentry's Call</strong> – Enhances marksman capabilities</p>
+					<ul>
+						<li><p style="color: #ff6d10; font-size: 12px;">Set bonus (2): +30% headshot damage.</p></li>
+						<li><p style="color: #ff6d10; font-size: 12px;">Set bonus (3): +20% damage to elites.</p></li>
+						<li><p style="color: #ff6d10; font-size: 12px;">Set bonus (4): Talent: Stalker: Headshots mark the enemy, increasing the damage inflicted on the target by 15% for duration of 10 seconds each. A target can receive up to three marks.</p></li>
+					</ul>
+					<p style="color: #ff6d10; font-size: 14px;">&nbsp;</p>
+					<hr>
+					<h3 style="color: #9b8f7c;">Trading</h3>
+					<ul>
+						<li><p style="color: #ff6d10; font-size: 12px;">- Items dropped by enemies can be shared with other players</p></li>
+						<li><p style="color: #ff6d10; font-size: 12px;">- Trade items by dropping them as loot from your inventory, so players in your group can pick them up</p></li>
+						<li><p style="color: #ff6d10; font-size: 12px;">- You can only share items for during the first 2 hours after you have acquired them</p></li>
+						<li><p style="color: #ff6d10; font-size: 12px;">- Items can only be shared with players who are currently in your group and who were also in your group when the item was originally dropped</p></li>
+					</ul>
+					<p style="color: #ff6d10; font-size: 14px;">&nbsp;</p>
+					<hr>
+					<h3 style="color: #9b8f7c;">Assignments</h3>
+					<ul>
+						<li><p style="color: #ff6d10; font-size: 12px;">- Assignments are automatically obtained when you log in and can be tracked from the map via the menu called “Mission Overview”</p></li>
+						<li><p style="color: #ff6d10; font-size: 12px;">- Assignments are available for a limited time (24h for Daily Assignments and 7 days for Weekly Assignments), after which, they will be replaced by different assignments</p></li>
+						<li><p style="color: #ff6d10; font-size: 12px;">- Most assignments can be completed while playing alone but some will require enlisting other agent’s assistance to complete</p></li>
+					</ul>
+					<p style="color: #ff6d10; font-size: 14px;">&nbsp;</p>
+					<p style="color: #ff6d10; font-size: 14px;">Assignments come in different categories:</p>
+					<ul>
+						<li><p style="color: #ff6d10; font-size: 12px;">- Combat</p></li>
+						<li><p style="color: #ff6d10; font-size: 12px;">- Dark Zone</p></li>
+						<li><p style="color: #ff6d10; font-size: 12px;">- Crafting</p></li>
+					</ul>
+					<p style="color: #ff6d10; font-size: 14px;">&nbsp;</p>
+					<p style="color: #ff6d10; font-size: 14px;"><strong>Assignement Teaser</strong>
+					<a href="https://www.youtube.com/watch?v=QuQE0IhVWPE">Video</a></p>
+					<p style="color: #ff6d10; font-size: 14px;">&nbsp;</p>
+					<hr>
+					<h3 style="color: #9b8f7c;">Dark Zone Supply Drops</h3>
+					<ul>
+						<li><p style="color: #ff6d10; font-size: 12px;">- Dark Zone Supply Drops are a global event where the Strategic Homeland Defense agency airdrops multiple supply caches to assist Division agents</p></li>
+						<li><p style="color: #ff6d10; font-size: 12px;">- Supply drops will occur multiple times over the course the day</p></li>
+						<li><p style="color: #ff6d10; font-size: 12px;">- The supply drops will contain non-contaminated gear of all types that will be ready to use without the need for extraction</p></li>
+						<li><p style="color: #ff6d10; font-size: 12px;">- These supply drops will be heavily sought after by other agents and enemy factions that roam the Dark Zone, so be ready for resistance</p></li>
+					</ul>
+					<p style="color: #ff6d10; font-size: 14px;">&nbsp;</p>
+					<hr>
+					<h3 style="color: #9b8f7c;">Gear Score</h3>
+					<ul>
+						<li><p style="color: #ff6d10; font-size: 12px;">- Every non-vanity gear piece that can be found when your agent is level 30 has a Gear Score value. The higher an item’s Gear Score, the stronger the item</p></li>
+						<li><p style="color: #ff6d10; font-size: 12px;">- The overall Gear Score of your agent can be seen in your main menu next to your player level. Gear Score indicates the advancement of an agent</p></li>
+						<li><p style="color: #ff6d10; font-size: 12px;">- Other agents’ Gear Scores are displayed next to their health bars</p></li>
+						<li><p style="color: #ff6d10; font-size: 12px;">- Improving your gear and increasing your overall Gear Score will grant your agent access to the most dangerous high-end challenges</p></li>
+					</ul>
+					<p style="color: #ff6d10; font-size: 14px;">&nbsp;</p>
+					<hr>
+					<h3 style="color: #9b8f7c;">Group Spectator Camera</h3>
+					<ul>
+						<li><p style="color: #ff6d10; font-size: 12px;">- The Group Spectator Cam lets players spectate members of their group while waiting to be revived or the entire group to be down</p></li>
+						<li><p style="color: #ff6d10; font-size: 12px;">- Players can use RB/LB, R1/L1 or Q/E keys to switch between group members</p></li>
+					</ul>
+					<p style="color: #ff6d10; font-size: 14px;">&nbsp;</p>
+					<hr>
+					<h3 style="color: #9b8f7c;">New High-End Named Weapons</h3>
+					<ul>
+						<li><p style="color: #ff6d10; font-size: 12px;">- Added new High-End named weapons:</p></li>
+						<li><p style="color: #ff6d10; font-size: 12px;">- Warlord: Assault Rifle</p></li>
+						<li><p style="color: #ff6d10; font-size: 12px;">- Valkyria: Submachine gun</p></li>
+						<li><p style="color: #ff6d10; font-size: 12px;">- (Historian: Marksman Rifle) Please note that while the Historian will be implemented in the game with this update, it will not be acquirable in-game until update 1.2</p></li>
+					</ul>
+					<p style="color: #ff6d10; font-size: 14px;">&nbsp;</p>
+					<hr>
+					<h2 style="color: #9b8f7c;">Game Changes</h2>
+					<h3 style="color: #9b8f7c;">Gameplay</h3>
+					<ul>
+						<li><p style="color: #ff6d10; font-size: 12px;">- Turret skill can no longer suppress enemy NPCs, as this allowed named NPCs to be defeated too easily</p></li>
+						<li><p style="color: #ff6d10; font-size: 12px;">- Recalibrating High-End items will now cost normal Credits instead of Phoenix Credits</p></li>
+					</ul>
+					<p style="color: #ff6d10; font-size: 14px;">&nbsp;</p>
+					<p style="color: #ff6d10; font-size: 14px;">Phoenix Credits drop have been increased on lvl 31 and 32 named enemies:</p>
+					<ul>
+						<li><p style="color: #ff6d10; font-size: 12px;">- Level 30: 1-3 Phoenix Credits</p></li>
+						<li><p style="color: #ff6d10; font-size: 12px;">- Level 31: 2-4 Phoenix Credits</p></li>
+						<li><p style="color: #ff6d10; font-size: 12px;">- Level 32: 3-5 Phoenix Credits</p></li>
+					</ul>
+					<p style="color: #ff6d10; font-size: 14px;">&nbsp;</p>
+					<hr>
+					<h3 style="color: #9b8f7c;">Dark Zone</h3>
+					<ul>
+						<li><p style="color: #ff6d10; font-size: 12px;">- The vendor in the Church Safe House will now sell items in Dark Zone Funds instead of Phoenix Credits</p></li>
+						<li><p style="color: #ff6d10; font-size: 12px;">- Added a new Dark Zone bracket for characters with Gear Score 160+</p></li>
+					</ul>
+					<p style="color: #ff6d10; font-size: 14px;">&nbsp;</p>
+					<p style="color: #ff6d10; font-size: 14px;">Ranks requirements for Superior and High-End quality items at the Dark Zone Vendors have been adjusted:</p>
+					<ul>
+						<li><p style="color: #ff6d10; font-size: 12px;">- Superior (Purple) items: Rank 15 instead of 30</p></li>
+						<li><p style="color: #ff6d10; font-size: 12px;">- High-End (Gold) level 30 (Gear Score 163): Rank 25 instead of 50</p></li>
+						<li><p style="color: #ff6d10; font-size: 12px;">- High-End (Gold) level 31 (Gear Score 182): Rank 40 instead of 50</p></li>
+					</ul>
+					<p style="color: #ff6d10; font-size: 14px;">&nbsp;</p>
+					<hr>
+					<h3 style="color: #9b8f7c;">Crafting</h3>
+					<ul>
+						<li><p style="color: #ff6d10; font-size: 12px;">- Added new level 31 and 32 High-End items Blueprints to Vendors</p></li>
+						<li><p style="color: #ff6d10; font-size: 12px;">- Removed Division Tech requirements from some level 31 High-End Blueprints</p></li>
+					</ul>
+					<p style="color: #ff6d10; font-size: 14px;">&nbsp;</p>
+					<p style="color: #ff6d10; font-size: 14px;">Increased costs for converting crafting materials and crafting High-End items:</p>
+					<ul>
+						<li><p style="color: #ff6d10; font-size: 12px;">- 10 Standard (Green) materials instead of 5 to craft 1 Specialized (Blue) material</p></li>
+						<li><p style="color: #ff6d10; font-size: 12px;">- 15 Specialized (Blue) materials instead of 5 to craft 1 High-End (Gold) material</p></li>
+						<li><p style="color: #ff6d10; font-size: 12px;">- 10 High-End (Gold) materials instead of 8 to craft 1 lvl 31 High-End (Gold) item</p></li>
+					</ul>
+					<p style="color: #ff6d10; font-size: 14px;">&nbsp;</p>
+					<p style="color: #ff6d10; font-size: 14px;">Changed deconstruction yield of Standard (Green) and High-End (Gold) items:</p>
+					<ul>
+						<li><p style="color: #ff6d10; font-size: 12px;">- Deconstructing a Standard (Green) item yields 1 Standard material instead of 2</p></li>
+						<li><p style="color: #ff6d10; font-size: 12px;">- Deconstructing a High-End (Gold) item yields 1 High-End material instead of 2</p></li>
+					</ul>
+					<p style="color: #ff6d10; font-size: 14px;">&nbsp;</p>
+					<hr>
+					<h3 style="color: #9b8f7c;">User Interface</h3>
+					<ul>
+						<li><p style="color: #ff6d10; font-size: 12px;">- Added gamepad deadzone calibration in settings menu (all platforms)</p></li>
+					</ul>
+					<p style="color: #ff6d10; font-size: 14px;">&nbsp;</p>
+					<hr>
+					<h3 style="color: #9b8f7c;">Bug Fixes</h3>
+					<ul>
+						<li><p style="color: #ff6d10; font-size: 12px;">- Fixed a bug that could prevent characters from accessing the game if they had too many items in their inventory</p></li>
+						<li><p style="color: #ff6d10; font-size: 12px;">- Fixed a bug where sometimes the weapon talents would not activate if the player has the exact stat requirements</p></li>
+						<li><p style="color: #ff6d10; font-size: 12px;">- Fixed a bug where players could exit the Dark Zone on East 43rd street</p></li>
+						<li><p style="color: #ff6d10; font-size: 12px;">- Reloading stripper clips is now correctly interrupted by firing the weapon (marksman rifles and shotguns)</p></li>
+						<li><p style="color: #ff6d10; font-size: 12px;">- Fixed an issue where buying a weapon with a pre-attached scope using the buy and equip feature sometimes caused the scope to un-equip</p></li>
+						<li><p style="color: #ff6d10; font-size: 12px;">- Fixed an exploit where players could shoot through corners of covers</p></li>
+						<li><p style="color: #ff6d10; font-size: 12px;">- Fixed a number of locations where NPCs could shoot through walls</p></li>
+						<li><p style="color: #ff6d10; font-size: 12px;">- Fixed an exploit where players could ignore the fire rate of certain weapons</p></li>
+						<li><p style="color: #ff6d10; font-size: 12px;">- Fixed some locations where players would get stuck in Queen Tunnel Camp mission</p></li>
+						<li><p style="color: #ff6d10; font-size: 12px;">- Fixed various prop collisions so that players no longer become stuck</p></li>
+						<li><p style="color: #ff6d10; font-size: 12px;">- Fixed a bug where the final cut scenes would unlock before the final missions were completed</p></li>
+						<li><p style="color: #ff6d10; font-size: 12px;">- Fixed a bug where the Water Supply side mission would not activate</p></li>
+						<li><p style="color: #ff6d10; font-size: 12px;">- Fixed an issue where the Morphine Supply side mission sometimes would not complete</p></li>
+						<li><p style="color: #ff6d10; font-size: 12px;">- Players no longer receive too much XP for completing the Morphine Supply side mission</p></li>
+						<li><p style="color: #ff6d10; font-size: 12px;">- The buff from Smart Cover no longer stacks if multiple teammates are using it on the same piece of cover</p></li>
+						<li><p style="color: #ff6d10; font-size: 12px;">- Fixed some bugs where deployable skills would not activate under certain circumstances</p></li>
+						<li><p style="color: #ff6d10; font-size: 12px;">- Fixed a bug where voice chat volume indicators would overlap in the group UI frame</p></li>
+						<li><p style="color: #ff6d10; font-size: 12px;">- Fixed a bug where receiving a group invite via Matchmaking would sometimes not show up on the screen</p></li>
+						<li><p style="color: #ff6d10; font-size: 12px;">- Fixed a bug where the dead teammate icon would turn into a blue dot instead of a red cross if the players were too far away from each other</p></li>
+						<li><p style="color: #ff6d10; font-size: 12px;">- Fixed an issue where a player would be unable to inspect the appearance of his/her character while changing outfits</p></li>
+						<li><p style="color: #ff6d10; font-size: 12px;">- Fixed some UI elements for mission overview frame and adjusted some of the misaligned icons</p></li>
+						<li><p style="color: #ff6d10; font-size: 12px;">- Corrected the colors for the appearance items in the Mission rewards list</p></li>
+						<li><p style="color: #ff6d10; font-size: 12px;">- NPC’s will no longer ignore the player while they are attempting to interact with props (arming/disarming bombs)</p></li>
+						<li><p style="color: #ff6d10; font-size: 12px;">- Fixed a bug where a NPC would sometimes not leave its spawn area during the Morphine Supply side mission</p></li>
+						<li><p style="color: #ff6d10; font-size: 12px;">- Fixed a bug where NPC’s would sometimes not respawn at one of the landmarks in the Dark Zone</p></li>
+						<li><p style="color: #ff6d10; font-size: 12px;">- Several clipping issues have been fixed with various appearance items</p></li>
+						<li><p style="color: #ff6d10; font-size: 12px;">- Some tooltips have been updated with more clear information</p></li>
+						<li><p style="color: #ff6d10; font-size: 12px;">- And many more</p></li>
+					</ul>
+					<p style="color: #ff6d10; font-size: 14px;">&nbsp;</p>
+					<hr>
+					<p><a style="color: #9b8f7c;" href="http://tomclancy-thedivision.ubi.com/game/en-GB/news/detail.aspx?c=tcm:154-245851-16&amp;ct=tcm:148-76770-32">Source</a></p>
+					<p style="padding:15px 0px 0px; border-top: 2px solid #8d8c91;"><a data-toggle="tab" class="btn btn-primary" href="#home">Return Home</a>
+		    		</div>
+      			</div>
+      			<div id="divisionY1" class="tab-pane fade in">
+        			<div class="well well-dark-transparent" style="overflow:auto; height:590px;">
+          				<h3 style="color: #ff6d10; font-family: 'Roboto', sans-serif; font-size: 24px; text-align:center; border-bottom: 2px solid #ff6d10; margin: 0px 0px 30px; padding: 5px 0px 5px;">The Divison Year 1 Roadmap</h3>
+			    		<a class="media-link iframe"  target="_blank" href="https://cdn.division.zone/uploads/2016/03/tc-the-division-year-one-content-roadmap.jpg"><img class="aligncenter wp-image-2357 size-content-full" src="https://cdn.division.zone/uploads/2016/03/tc-the-division-year-one-content-roadmap-678x381.jpg" alt="The Division Year One Content Roadmap" width="100%"></a>
+		    			<div>
+		    				<div>
+    							<ul>
+    								<li><a style="color: #ff6d10;" href="#free-updates"><span>1</span> Free Updates</a>
+    									<ul>
+    										<li><a style="color: #ff6d10;" href="#incursions"><span>1.1</span> Incursions</a></li>
+    										<li><a style="color: #ff6d10;" href="#conflict"><span>1.2</span> Conflict</a></li>
+    									</ul>
+    								</li>
+    								<li><a style="color: #ff6d10;" href="#expansions"><span>2</span> Expansions</a>
+    									<ul>
+    										<li><a style="color: #ff6d10;" href="#underground"><span>2.1</span> Underground</a></li>
+    										<li><a style="color: #ff6d10;" href="#survival"><span>2.2</span> Survival</a></li>
+    										<li><a style="color: #ff6d10;" href="#last-stand"><span>2.3</span> Last Stand</a></li>
+    									</ul>
+    								</li>
+    							</ul>
+    						</div>
+    						<hr style="color: #ff6d10;">
+    						<h2><span id="free-updates">Free Updates</span></h2>
+    						<h3 style="color: #ff6d10;"><span id="incursions">Incursions</span></h3>
+    						<p style="color: #9b8f7c;"><em><strong>April.</strong></em>The first update called&nbsp;<strong>Incursions</strong> is a&nbsp;challenging<strong> end-game activity</strong>&nbsp;that is developed specifically for playing in a squad and <strong>focuses heavily on teamplay</strong>. It will be<strong> available for free and playable&nbsp;for everyone</strong>. In Incursions you have to stand&nbsp;against an seemingly unstoppable force to earn&nbsp;new powerful weapons and gear items. Moreover you&nbsp;would obviously have to&nbsp;<strong>protect and escort an armored vehicle</strong> in some scenarios.</p>
+    						<h3 style="color: #ff6d10;"><span id="conflict">Conflict</span></h3>
+    						<p style="color: #9b8f7c;"><strong><em>May.&nbsp;</em></strong>It is said that it will change the way you play in the <strong><a style="color: #ff6d10;" target="_blank"  href="https://division.zone/zones/dark-zone/">Dark Zone</a></strong> and will also add a <strong>new Incursion</strong> in the iconic <strong><a style="color: #ff6d10;" target="_blank"  href="https://en.wikipedia.org/wiki/Columbus_Circle" target="_blank">Columbos Circle</a></strong> – a&nbsp;heavily trafficked intersection in Manhattan; also for free and available for everyone.</p>
+    						<hr style="color: #ff6d10;">
+    						<h2><span id="expansions">Expansions</span></h2>
+    						<p style="color: #9b8f7c;">The three major&nbsp;expansions are purchasable DLCs.&nbsp;<strong><a style="color: #ff6d10;" target="_blank"  href="https://division.zone/the-division-season-pass/">Season Pass</a></strong>&nbsp;holders&nbsp;don’t have to buy them as they are already included.</p>
+    						<h3  style="color: #ff6d10;" id="expansion-1-underground"><span id="underground">Underground</span></h3>
+    						<p style="color: #9b8f7c;"><em><strong>June. </strong></em>The first&nbsp;expansion lets players explore the uncharted underworld of New York City. Players will chase deadly enemies with up to three other Agents through an endless maze of tunnels and subways.</p>
+    						<p style="color: #9b8f7c;">If you have played games like Diablo 3, then this might work similar to the there implemented (Nephalem)&nbsp;Rift system, with random generated dungeons and more challenging encounters as well as&nbsp;better rewards&nbsp;the more you progress. <em>That would be great.</em></p>
+    						<h3 style="color: #ff6d10;"><span id="survival">Survival</span></h3>
+    						<p style="color: #9b8f7c;"><em><strong>Summer.&nbsp;</strong></em>In the&nbsp;<strong>Survival</strong> expansion, players will have to survive as long as possible by gathering essential supplies and high-tech equipment to take back New York. The <strong><a style="color: #ff6d10;" target="_blank"  href="https://division.zone/zones/dark-zone/#rogue-protocol">Rogue Protocol</a></strong> seems to play a big role in this mode.</p>
+    						<h3 style="color: #ff6d10;"><span id="last-stand">Last Stand</span></h3>
+    						<p style="color: #9b8f7c;"><em><strong>Winter.</strong>&nbsp;</em>A new threat rises in Winter 2016, as players and their squad must prepare to defend against a relentless foe. Based on the shown footage you will&nbsp;probably be able to establish your own base with turrets and other tools to hold the attackers of. Furthermore its cover art is featuring the Statue of Liberty in some way.</p>
+    						<hr style="color: #ff6d10;">
+    						<p style="color: #9b8f7c;">Last but not least here is the <strong><a style="color: #ff6d10;"  target="_blank" href="https://youtu.be/Bk3doWjPauA">Year One Content Trailer</a></strong> for the new announced content.</p>
+    					</div>
+    				</div>
+      			</div>
+      			<div id="divisionFarm" class="tab-pane fade in">
+        			<div class="well well-dark-transparent" style="overflow:auto; height:590px;">
+          				<h3 style="color: #ff6d10; font-family: 'Roboto', sans-serif; font-size: 24px; text-align:center; border-bottom: 2px solid #ff6d10; margin: 0px 0px 30px; padding: 5px 0px 5px;">The Divison Dark Zone<br>Boss & Phoenix Credit Farming</h3>
+			    		<a class="media-link iframe"  target="_blank" href="http://i.imgur.com/4WrLpSv.jpg"><img class="aligncenter wp-image-2357 size-content-full" src="http://i.imgur.com/4WrLpSv.jpg" alt="The Division Phoenix Credit Farming" width="100%"></a>
+		    			<div>
+		    				<hr style="color: #ff6d10;">
+    						<h3 style="color: #ff6d10; text-align:center;"><span>Stratagy</span></h3>
+    						<p style="color: #9b8f7c;">Enter the Dark Zone 01 area at the enterance marked with the green target</p>
+    						<p style="color: #9b8f7c;">Follow the path to the first yellow skull. This will be the first <strong>Boss</strong></p>
+    						<p style="color: #9b8f7c;">Continue following the path and killing <strong>Bosses</strong> as you reach them.</p>
+    						<p style="color: #9b8f7c;">Head to the nearest <strong>Extraction Zone</strong> as needed</p>
+    						<hr style="color: #ff6d10;">
+    						<p style="color: #9b8f7c;">Here is the <strong><a style="color: #ff6d10;"  target="_blank" href="https://www.youtube.com/watch?v=XEBHGdYoIe4">Arekkz Dark Zone Farming Video</a></strong> to see the route first hand</p>
+    					</div>
+    					<hr style="color: #ff6d10;">
+    					<h3 style="color: #ff6d10; text-align:center;"><span>Division Tech Farming Route</span></h3>
+    					<p style="color: #9b8f7c; text-align:center;"><a class="media-link iframe" target="_blank" href="http://goo.gl/1dJ272"><img class="aligncenter wp-image-2357 size-content-full" src="http://i.imgur.com/riuwNGG.png" alt="The DivisionTech Farming" width="75%"></a></p>
+    					<p style="color: #9b8f7c; text-align:center;"><small>Click Image for Interactive Map</small></p>
+		    			<hr style="color: #ff6d10;">
+    					<h3 style="color: #ff6d10; text-align:center;"><span>Boss Locations</span></h3>
+    					<a class="media-link iframe"  target="_blank" href="http://i.imgur.com/jAKj5EQ.png"><img class="aligncenter wp-image-2357 size-content-full" src="http://i.imgur.com/jAKj5EQ.png" alt="The Division Phoenix Credit Farming" width="100%"></a>
+		    			
+    				</div>
+      			</div>
+      			<div id="dtwitter" class="tab-pane fade">
+				<div class="well well-dark-transparent text-center" style="overflow:auto; height:590px;">
+					<a class="twitter-timeline" href="https://twitter.com/TheDivisionGame" data-widget-id="708388316438204416">Tweets by @TheDivisionGame</a>
+					<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+				</div>
+			</div>
+			<div id="twitch" class="tab-pane">
+				<div class="well well-dark-transparent text-center" style="overflow:auto; height:590px;">
+					<h3 style="font-size: 24px; text-align:center; margin: 0px 0px 30px; padding: 5px 0px 5px;"><img src="http://i.imgur.com/LPgEQGG.jpg" width="100%" height="px"alt="twitch" title="twitch"></h3>
+					<div class="row">
+		                                <div class="col-md-6">
+							<a href="https://twitch.tv/fearbroner" target="_blank"><img src="http://streambadge.com/twitch/custom/808080/6441a5/000000/fearbroner.png" width="225" height="48.8" alt="fearbroner's Streambadge"></a><br><br>
+					 		<a href="https://twitch.tv/skill_up_gg" target="_blank"><img src="http://streambadge.com/twitch/custom/808080/6441a5/000000/skill_up_gg.png" width="225" height="48.8" alt="skill_up_gg's Streambadge"></a><br><br>
+					 		<a href="https://twitch.tv/breezypeazy" target="_blank"><img src="http://streambadge.com/twitch/custom/808080/6441a5/000000/breezypeazy.png" width="225" height="48.8" alt="breezypeazy's Streambadge"></a><br><br>
+					 		
+						</div>
+						<div class="col-md-6">
+							<a href="https://twitch.tv/TheDivisionGame" target="_blank"><img src="http://streambadge.com/twitch/custom/808080/6441a5/000000/TheDivisionGame" width="225" height="48.8" alt="TheDivisionGame's Streambadge"></a><br><br>
+					 		<a href="https://twitch.tv/marcostylenl" target="_blank"><img src="http://streambadge.com/twitch/custom/808080/6441a5/000000/marcostylenl.png" width="225" height="48.8" alt="marcostylenl's Streambadge"></a><br><br>
+							<a href="https://twitch.tv/arekkzgaming" target="_blank"><img src="http://streambadge.com/twitch/custom/808080/6441a5/000000/arekkzgaming.png" width="225" height="48.8" alt="arekkzgaming's Streambadge"></a><br><br>
+					 		
+						</div>
+					</div>
+				</div>
+			</div>
+    		</div>
+  	</div>
+</div>
